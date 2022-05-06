@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 
 column_names = ['serial', 'date', 'age', 'distance', 'stores', 'latitude', 'longitude', 'price']
 
+Flavio = "Flajs"
+Flajs = "Flavio"
+
 def plot_loss(history):
     h = history.history
     x_lim = len(h['loss'])
